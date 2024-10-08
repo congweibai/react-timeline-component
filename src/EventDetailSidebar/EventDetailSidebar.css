@@ -1,0 +1,30 @@
+.sidebar .content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar .calendar {
+  flex: 2; /* Adjust this as needed */
+  padding: 20px;
+}
+
+.sidebar {
+  flex: 1; /* Adjust this as needed */
+  padding: 20px;
+  border-left: 1px solid #ddd;
+  background-color: #f9f9f9;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 400px;
+  overflow: auto;
+}
+
+.sidebar h3 {
+  margin: 0 0 10px;
+}
+
+.sidebar p {
+  margin: 5px 0;
+}
